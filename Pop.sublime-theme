@@ -197,6 +197,13 @@
       "parents": [{"class": "sidebar_container"}],
       "content_margin": [1, 16]
     },
+    // Horizontal scroll puck in files tree view
+    {
+      "class": "puck_control",
+      "parents": [{"class": "sidebar_container"}],
+      "attributes": ["horizontal"],
+      "content_margin": [16, 1]
+    },
 
 //
 // EMPTY WINDOW BACKGROUND
